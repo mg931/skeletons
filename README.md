@@ -2,10 +2,8 @@
 
 Base templates for new files in vim.
 
-## vimrc || init.vim
-
 ```vim
-" skeletons
+" vimrc
 
 autocmd BufNewFile *.sh 0r ~/skeletons/bash.sh
 autocmd BufNewFile *.py 0r ~/skeletons/template.py
